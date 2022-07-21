@@ -1,4 +1,4 @@
-package dingding
+package dingrobot
 
 import (
 	"bytes"
@@ -24,7 +24,7 @@ type Robot struct {
 func NewRobot(webhook string, secret string) *Robot {
 	if len(webhook) == 64 {
 		webhook = DingBaseUrl + webhook
-	} 
+	}
 	return &Robot{Webhook: webhook, Secret: secret}
 }
 
