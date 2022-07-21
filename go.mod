@@ -1,3 +1,3 @@
-module github.com/xiqiangchen/dingding-robot
+module github.com/xiqiangchen/dingrobot
 
 go 1.16
